@@ -1,0 +1,35 @@
+[
+  {
+    "model": "menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "title": "Главная",
+      "url": "/",
+      "named_url": null,
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "title": "О нас",
+      "url": null,
+      "named_url": "about",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 3,
+    "fields": {
+      "title": "О команде",
+      "url": null,
+      "named_url": "about-team",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  }
+]
